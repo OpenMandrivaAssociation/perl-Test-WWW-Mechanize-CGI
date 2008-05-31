@@ -13,6 +13,7 @@ Source:     http://www.cpan.org/modules/by-module/Test/%{module}-%{version}.tar.
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::WWW::Mechanize)
 BuildRequires: perl(WWW::Mechanize::CGI)
+BuildRequires: perl(CGI)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 

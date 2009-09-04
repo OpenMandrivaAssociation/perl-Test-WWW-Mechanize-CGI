@@ -1,6 +1,6 @@
 %define module   Test-WWW-Mechanize-CGI
 %define version    0.1
-%define release    %mkrel 2
+%define release    %mkrel 3
 
 Name:       perl-%{module}
 Version:    %{version}

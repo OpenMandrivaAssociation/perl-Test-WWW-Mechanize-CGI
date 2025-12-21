@@ -9,6 +9,7 @@ Summary:	Test CGI applications with Test::WWW::Mechanize
 Url:		https://search.cpan.org/dist/%{module}
 Source:	http://www.cpan.org/modules/by-module/Test/%{module}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test::WWW::Mechanize)
